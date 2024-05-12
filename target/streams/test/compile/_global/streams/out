@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/mike/dev/Scala/Parser/src/test/scala/Markdown.scala:160:24 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m160 |[0m        println([31ms"here [0m$x[31m"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                        ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                        Not found: x[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

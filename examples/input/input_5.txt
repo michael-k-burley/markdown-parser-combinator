@@ -1,0 +1,12 @@
+## Try CommonMark ####
+
+Do it and see what scmhappens
+
+Here is a code block
+
+    int main(){
+        printf("Will it compile?")
+        return 0;
+    }
+
+here is *not* a code block

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Markdown to get down!</title>
+    </head>
+    <body>
+		<p>
+			<em>here is some text</em>
+			<strong>here is some more</strong>
+			<strong><em>here is still more</em></strong>
+			<img src='http://example.com/' alt='an example image' title='Title goes here' >
+			<a href='http://example.com/' title='Title goes here' >an example link</a>
+			<p><code>inline code sample</code></p>
+		</p>
+	</body>
+<html>

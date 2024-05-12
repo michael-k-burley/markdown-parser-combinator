@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly *Markdown_Suite, Some(348db3f2-257d-40d4-b6bb-a9e917255864), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/mike/dev/Scala/Parser/target/scala-3.4.1/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/mike/dev/Scala/Parser/src/main/scala/Markdown/Markdown.scala:268:27 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m268 |[0m                BlockQuote(vek_raw_text)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                           ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                      Found:    [1m[31m([0m[1m[31mvek[0m[1m[31m_[0m[1m[31mraw[0m[1m[31m_[0m[1m[31mtext[0m[1m[31m [0m[1m[31m:[0m[1m[31m [0mVector[String[1m[31m [0m[1m[31m|[0m[1m[31m [0m[1m[31mChar[0m][1m[31m)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                      Required: Vector[String][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Apr. 30, 2024, 8:28:55 p.m.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

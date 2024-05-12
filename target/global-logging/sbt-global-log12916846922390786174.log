@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly *Markdown_Suite, Some(c82b959c-02bd-47e3-af14-2bebb089587f), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/mike/dev/Scala/Parser/target/scala-3.4.1/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMarkdown_Suite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Paragraph[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Header[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- BlockQuote[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Ordered List[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Unordered List[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- HorizontalRule[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CodeBlock[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Emphasis[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Link *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  (Error: Expected string ' ' at position 32 Error: Expected string '' at position 32,[input] [This link](http://example.net/)) did not equal (Link(This link,http://example.net/,None),[input] [This link](http://example.net/)) (Markdown.scala:245)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Tuple2(_1: ParseError(errorMsg: Error: Expected string ' ' at position 32 Error: Expected string '' at position 32 -> , value: -> Link(This link,http://example.net/,None)))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Image[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- InlineCode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 162 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 11[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 10, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	MarkDown.Markdown_Suite[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Apr. 30, 2024, 5:54:18 p.m.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Markdown to get down!</title>
+    </head>
+    <body>
+		<h2>Try CommonMark</h2>
+		<p>Do it and see what scmhappens </p>
+		<p>Here is a code block </p>
+		<pre><code>int main(){
+    printf("Will it compile?")
+    return 0;
+}</code></pre>
+		<p>here is <em>not</em> a code block </p>
+	</body>
+<html>

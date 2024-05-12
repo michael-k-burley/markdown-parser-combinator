@@ -1,0 +1,6 @@
+*here is some text*
+__here is some more__
+***here is still more***
+![an example image](http://example.com/ "Title goes here")
+[an example link](http://example.com/ "Title goes here")
+`inline code sample`

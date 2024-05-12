@@ -1,0 +1,43 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 3 products, 2 sources, 6 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/test/scala/Markdown.scala, ${BASE}/src/test/scala/Parser.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set(NamesChange(Parser.Parser$package$,ModifiedNames(changes = UsedName(map,[Default]), UsedName(and,[Default]), UsedName(flatMap,[Default])))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe Parser.Parser$package$ has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(map,[Default]), UsedName(and,[Default]), UsedName(flatMap,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) Parser.Parser$package$: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) Parser.Parser$package$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of MarkDown.Markdown_Suite: [map][0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Parser.Combinators_Suite: [and][0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Parser.Parsers_Suite. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set(NamesChange(Parser.Parser$package$,ModifiedNames(changes = UsedName(map,[Default]), UsedName(and,[Default]), UsedName(flatMap,[Default]))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set(MarkDown.Markdown_Suite, Parser.Combinators_Suite)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(MarkDown.Markdown_Suite, Parser.Combinators_Suite)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: MarkDown.Markdown_Suite, Parser.Combinators_Suite, Parser.Parsers_Suite[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/mike/dev/Portfolio/MD_Parser/target/scala-3.4.1/test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.4.1/scala3-sbt-bridge-3.4.1.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3d941aae for Scala Compiler version 3.4.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.1/scala3-library_3-3.4.1.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/mike/dev/Portfolio/MD_Parser/target/scala-3.4.1/test-classes:/home/mike/dev/Portfolio/MD_Parser/target/scala-3.4.1/classes:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_3/3.2.9/scalatest_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_3/3.2.9/scalatest-core_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_3/3.2.9/scalatest-featurespec_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_3/3.2.9/scalatest-flatspec_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_3/3.2.9/scalatest-freespec_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_3/3.2.9/scalatest-funsuite_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_3/3.2.9/scalatest-funspec_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_3/3.2.9/scalatest-propspec_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_3/3.2.9/scalatest-refspec_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_3/3.2.9/scalatest-wordspec_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_3/3.2.9/scalatest-diagrams_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_3/3.2.9/scalatest-matchers-core_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_3/3.2.9/scalatest-shouldmatchers_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_3/3.2.9/scalatest-mustmatchers_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_3/3.2.9/scalactic_3-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.9/scalatest-compatible-3.2.9.jar:/home/mike/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_3/2.0.0/scala-xml_3-2.0.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 4.154267327 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m

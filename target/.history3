@@ -1,0 +1,502 @@
+1711831056522:run
+1711831091321:test
+1711831099491:reload
+1711831107214:test
+1711831370994:reload
+1711831379150:run
+1711831384092:reload
+1711831386115:run
+1711831442702:find .
+1711831449712:$ find .
+1711831504719:reload
+1711831514985:run
+1711831604316:test
+1711831620054:reload
+1711831622055:test
+1711832069069:run
+1711832226019:~run
+1711833016059:test
+1711833454748:run
+1711833717353:test
+1711833825925:run
+1711833913034:test
+1711833969467:run
+1711834051686:test
+1711834097833:run
+1711834151332:test
+1711834474185:run
+1711834477317:test
+1711834513525:run
+1711838339401:reload
+1711838343223:~run
+1711840791301:test
+1711840818455:tes
+1711840819628:test
+1711841286888:run
+1711841289115:test
+1711841447792:~run
+1711841837616:test
+1711841930055:run
+1711841954179:test
+1711842006175:tes
+1711842007290:test
+1711842134588:run
+1711842138818:test
+1711997241169:run
+1712008132930:test
+1712011031963:run
+1712011092561:~run
+1712011115421:run
+1712011141577:~run
+1712011245919:test
+1712011266836:~run
+1712030678055:exit
+1712084007575:~run
+1712090840044:sbt
+1712090843795:~run
+1712091387142:test
+1712091950166:~run
+1712092274214:test
+1712092386822:run
+1712092594643:test
+1712093077716:~test
+1712095537948:run
+1712095577204:~run
+1712101398648:reload
+1712101405872:~run
+1712107194091:reload
+1712107198282:~run
+1712118349744:exit
+1712118454165:reload
+1712118457330:run
+1712119025058:~run
+1712122466839:exit
+1712180763807:~run
+1712191531279:exit
+1712191545200:~run
+1712202686093:run
+1712202729949:~run
+1712206316028:exit
+1712206328620:~run
+1712206670365:exit
+1712251410294:~run
+1712267521018:test
+1712284504219:~run
+1712284549073:test
+1712285662467:run
+1712285684294:~run
+1712287900901:test
+1712288285681:run
+1712288440546:exit
+1712357476936:run
+1712357519991:exit
+1712365234294:~run
+1712370299079:exit
+1712423812812:~run
+1712424458433:test
+1712424725698:run
+1712424771603:test
+1712424952084:run
+1712425035203:test
+1712425444169:run
+1712426788800:test
+1712427255699:run
+1712427273701:test
+1712427382993:reload
+1712427385707:test
+1712427528509:run
+1712427716578:~run
+1712429144512:test
+1712429934295:run
+1712430320973:test
+1712433841925:run
+1712433880825:~run
+1712444584031:test
+1712444697907:run
+1712444717283:test
+1712444799205:reload
+1712444829544:test
+1712445927966:~test
+1712447023726:run
+1712447067906:~run
+1712447337614:test
+1712447374575:~test
+1712448065431:run
+1712448094534:test
+1712448341614:run
+1712448510895:test
+1712449020048:run
+1712449056834:test
+1712449158867:run
+1712449534214:test
+1712453167723:run
+1712453173639:test
+1712453775369:realod
+1712453776926:reload
+1712453779539:realod
+1712453781752:test
+1712454051834:reload
+1712454054517:test
+1712454432466:~test
+1712455098290:~run
+1712455429379:~test
+1712457918768:exit
+1712506647781:test HorizontalRule
+1712506689671:testOnly HorizontalRule
+1712506816254:test
+1712507095121:run
+1712507298992:~run
+1712507851859:~test
+1712507868453:run
+1712507880105:test
+1712508407208:reload
+1712508408678:test
+1712508706853:testOnly Markdown_suite
+1712508713190:testOnly Markdown_Suite
+1712508785111:testOnly *class Markdown_Suite
+1712508847617:testOnly *class Markdown_Suite -- -z zero
+1712508863320:'testOnly *class Markdown_Suite -- -z zero
+1712508879147:testOnly *Markdown_Suite -- -z zero
+1712508919415:test
+1712508934451:testOnly *Markdown_Suite -z zero
+1712508950320:testOnly *Markdown_Suite
+1712509038299:testQuick
+1712509077515:test-only *Markdown_Suite
+1712509094089:testQuick
+1712509254122:testOnly *Parser_Suite -- -n String Parser
+1712509285868:test *Parser_Suite -- -n String Parser
+1712509299460:test *Parser_Suite -- -n String_Parser
+1712509309341:testOnly *Parser_Suite -- -n String_Parser
+1712509344448:testOnly *Parser_Suite -- -z String
+1712509348286:testOnly *Parser_Suite -- -Z String
+1712509443191:test
+1712509703763:reload
+1712509705050:test
+1712510503430:~run
+1712516891744:exit
+1712537188558:~run
+1712537476107:test
+1712537621489:~run
+1712537919641:test
+1712538303021:run
+1712539342595:test
+1712539411484:reload
+1712539412879:test
+1712541741201:run
+1712543378066:test
+1712544748141:reload
+1712544751647:run
+1712544948031:test
+1712544993088:run
+1712544998052:test
+1712546638896:run
+1712546721925:test
+1712622476559:run
+1712622645171:test
+1712624903282:reload
+1712624904654:test
+1712626261256:testtest
+1712626263213:test
+1712626726359:~test
+1712630226955:exit
+1713049461496:run
+1713049737302:~run
+1713054170190:test
+1713054301248:'testOnly *class Markdown_Suite -- -z down
+1713054321898:'testOnly *Markdown_Suite
+1713054334195:'test-only *Markdown_Suite
+1713054340603:'test-only Markdown_Suite
+1713054375935:testOnly HorizontalRule
+1713054387635:testOnly Markdown_Suite
+1713054403428:testOnly Markdown_Suite -- -z Paragraph
+1713054592901:testOnly Markdown_Suite -- -z tagger
+1713054736824:testOnly Markdown_Suite --tests=Paragraph
+1713054749189:testOnly Markdown_Suite -- --tests=Paragraph
+1713054776134:testOnly -- --tests=Paragraph
+1713054806349:test
+1713054849949:testOnly -- Paragraph
+1713054895315:testOnly -- --tests=Paragraph
+1713054922244:testOnly -- --tests="Paragraph"
+1713054945877:testOnly
+1713054964428:testOnly -- -z Paragraph
+1713055124669:testOnly Markdown_Suite -z Paragraph
+1713055135587:testOnly *Markdown_Suite -z Paragraph
+1713055146597:testOnly *Markdown_Suite -- -z Paragraph
+1713055300283:testOnly *Markdown_Suite -- -z Rule
+1713055751352:run
+1713056005996:~run
+1713057021459:testOnly *Markdown_Suite -- -z Rule
+1713057612013:clear
+1713057613506:clc
+1713057615281:clr
+1713057619643:testOnly *Markdown_Suite -- -z Rule
+1713057982824:run
+1713058791079:testOnly *Markdown_Suite -- -z Rule
+1713059492515:run
+1713059653789:reload
+1713059660800:run
+1713059772915:reload
+1713059775602:run
+1713059847460:reload
+1713060020604:run
+1713060050890:testOnly *Markdown_Suite -- -z Rule
+1713060091286:run
+1713060098598:testOnly *Markdown_Suite -- -z Rule
+1713060162946:run
+1713060902480:testOnly *Markdown_Suite -- -z Head
+1713063412769:testOnly *Markdown_Suite -- -z Header
+1713065023333:reload
+1713065031661:testOnly *Markdown_Suite -- -z Head
+1713066658312:run
+1713066678570:testOnly *Markdown_Suite -- -z Head
+1713066952686:run
+1713067005689:testOnly *Markdown_Suite -- -z Head
+1713067062793:exit
+1713226161146:run
+1713226400980:testOnly *Markdown_Suite -- -z Rule
+1713227143190:testOnly *Markdown_Suite -- -z Head
+1713228305220:run
+1713228336234:testOnly *Markdown_Suite -- -z Head
+1713228349143:testOnly *Markdown_Suite -- -z Rule
+1713228449338:run
+1713235648144:exit
+1714324640072:run
+1714325399240:exit
+1714331053851:testOnly *Markdown_suite -- -z Hor
+1714331080726:testOnly *Markdown_Suite -- -z Hor
+1714331305492:testOnly *Markdown_Suite -- -z Head
+1714333412848:testOnly *Markdown_Suite -- -z Hor
+1714333415178:testOnly *Markdown_Suite -- -z Head
+1714333838813:testOnly *Markdown_Suite -- -z Hor
+1714334486000:testOnly *Markdown_Suite -- -z List
+1714334550432:testOnly *Markdown_Suite -- -z Hor
+1714334551812:testOnly *Markdown_Suite -- -z List
+1714334883466:testOnly *Markdown_Suite -- -z Hor
+1714334887402:testOnly *Markdown_Suite -- -z Head
+1714335634579:testOnly *Markdown_Suite -- -z List
+1714338045944:testOnly *Markdown_Suite -- -z unord
+1714338051093:testOnly *Markdown_Suite -- -z Unord
+1714338750810:testOnly *Markdown_Suite -- -z Ord
+1714338763949:testOnly *Markdown_Suite -- -z List
+1714339543931:testOnly *Markdown_Suite -- -z Code
+1714340604662:testOnly *Markdown_Suite -- -z Block
+1714340619584:testOnly *Markdown_Suite -- -z CodeBlock
+1714342050592:testOnly *Markdown_Suite -- -z Block
+1714342054023:testOnly *Markdown_Suite -- -z CodeBlock
+1714342120403:testOnly *Markdown_Suite -- -z Quote
+1714342143860:exit
+1714348938687:testOnly *Markdown_Suite -- -z Block
+1714350551521:reload
+1714350553984:testOnly *Markdown_Suite -- -z Block
+1714351192425:testOnly *Markdown_Suite -- -z Quote
+1714351791742:[A
+1714351793755:testOnly *Markdown_Suite -- -z Quote
+1714352007815:run
+1714352343536:testOnly *Markdown_Suite -- -z Quote
+1714352631969:run
+1714355089970:testOnly *Markdown_Suite -- -z Quote
+1714357485410:run
+1714357531802:testOnly *Markdown_Suite -- -z Quote
+1714357533422:run
+1714357599321:testOnly *Markdown_Suite -- -z Quote
+1714358669677:run
+1714359491696:testOnly *Markdown_Suite -- -z Quote
+1714359813992:exit
+1714360001467:testOnly *Markdown_Suite -- -z Quote
+1714360626287:run
+1714360671198:testOnly *Markdown_Suite -- -z Quote
+1714361646679:exit
+1714410809769:testOnly *Markdown_Suite -- -z Para
+1714411104844:exit
+1714411117712:testOnly *Markdown_Suite -- -z Para
+1714419760114:testOnly *Markdown_Suite -- -z Link
+1714422983041:testOnly *Markdown_Suite -- -z Image
+1714423719655:testOnly *Markdown_Suite -- -z Inline
+1714424936113:run
+1714426806999:exit
+1714430132135:run
+1714431085913:testOnly *Markdown_Suite -- -z Emph
+1714433063398:run
+1714433212901:testOnly *Markdown_Suite -- -z Emph
+1714434647830:run
+1714435226222:testOnly *Markdown_Suite -- -z Emph
+1714435230563:testOnly *Markdown_Suite -- -z Inlnie
+1714435233720:testOnly *Markdown_Suite -- -z Inline
+1714436734292:run
+1714439321107:testOnly *Markdown_Suite -- -z Inline
+1714439464564:run
+1714439535981:testOnly *Markdown_Suite -- -z Inline
+1714439761618:run
+1714440147866:testOnly *Markdown_Suite -- -z Inline
+1714440556938:run
+1714440596953:testOnly *Markdown_Suite -- -z Inline
+1714440623302:run
+1714440766912:testOnly *Markdown_Suite -- -z Inline
+1714441770118:testOnly *Markdown_Suite
+1714444168163:run
+1714447930692:eixt
+1714447932194:exit
+1714501317793:run
+1714501482712:testOnly *Markdown_Suite -- -z List
+1714501613380:testOnly *Markdown_Suite -- -z unord
+1714501620026:testOnly *Markdown_Suite -- -z Unord
+1714502638573:testOnly *Markdown_Suite -- -z Ord
+1714502680137:testOnly *Markdown_Suite -- -z Unord
+1714502756831:testOnly *Markdown_Suite -- -z List
+1714502765382:run
+1714503243394:testOnly *Markdown_Suite -- -z Unord
+1714503292533:run
+1714503574287:testOnly *Markdown_Suite -- -z Unord
+1714503582247:run
+1714503884008:testOnly *Markdown_Suite -- -z Unord
+1714503893288:run
+1714504170916:testOnly *Markdown_Suite -- -z Unord
+1714504293848:run
+1714507528982:testOnly *Markdown_Suite -- -z Unord
+1714507551453:run
+1714508984100:testOnly *Markdown_Suite -- -z Unord
+1714508996070:testOnly *Markdown_Suite -- -z Ord
+1714509104484:run
+1714509267666:testOnly *Markdown_Suite -- -z Para
+1714509281732:testOnly *Markdown_Suite
+1714509526277:testOnly *Markdown_Suite -- -z List
+1714509751871:run
+1714510297422:testOnly *Markdown_Suite -- -z Para
+1714510301563:testOnly *Markdown_Suite -- -z ink
+1714510305165:testOnly *Markdown_Suite -- -z quote
+1714510309523:testOnly *Markdown_Suite -- -z uote
+1714510313736:Rule
+1714510317400:testOnly *Markdown_Suite -- -z ule
+1714510320904:testOnly *Markdown_Suite -- -z List
+1714510662895:testOnly *Markdown_Suite
+1714511140425:testOnly *Markdown_Suite -- -z Head
+1714511362179:run
+1714511518375:testOnly *Markdown_Suite -- -z Block
+1714511654480:testOnly *Markdown_Suite
+1714511657775:run
+1714511861000:testOnly *Markdown_Suite
+1714511920533:run
+1714512075411:testOnly *Markdown_Suite
+1714512078049:run
+1714512094362:testOnly *Markdown_Suite -- -z Block
+1714512147908:testOnly *Markdown_Suite -- -z Rule
+1714513440522:testOnly *Markdown_Suite
+1714513951619:testOnly *Markdown_Suite -- -z Rule
+1714513967110:testOnly *Markdown_Suite
+1714515000446:run
+1714515005654:exit
+1714522959770:testOnly *Markdown_Suite
+1714522977982:run
+1714523170239:testOnly *Markdown_Suite
+1714523227913:run
+1714523299046:testOnly *Markdown_Suite
+1714523428296:run
+1714523453206:testOnly *Markdown_Suite
+1714523472939:run
+1714523491568:testOnly *Markdown_Suite
+1714523512081:run
+1714523519027:exit
+1714523531302:run
+1714523535029:testOnly *Markdown_Suite
+1714523575863:run
+1714523640678:testOnly *Markdown_Suite
+1714523689890:run
+1714523745414:testOnly *Markdown_Suite
+1714523780586:run
+1714523858960:testOnly *Markdown_Suite
+1714524107910:run
+1714524206972:testOnly *Markdown_Suite
+1714524632644:exit
+1714526817991:testOnly *Markdown_Suite
+1714526859409:run
+1714526876529:reload
+1714526981299:run
+1714531042265:testOnly *Markdown_Suite
+1714532419577:exit
+1714574637675:run
+1714578528693:testOnly *Markdown_Suite
+1714578803755:run
+1714579248393:testOnly *Markdown_Suite
+1714579262097:run
+1714580499238:exit
+1714583329391:run
+1714589444478:testOnly *Markdown_Suite
+1714589603565:run
+1714590897196:testOnly *Markdown_Suite
+1714590900014:run
+1714593196085:exit
+1714593729204:run
+1714594026504:exit
+1714597057699:run
+1714598746825:testOnly *Markdown_Suite
+1714599294566:run
+1714606490057:reload
+1714606507872:run
+1714607596802:testOnly *Markdown_Suite
+1714607746766:run
+1714610732043:exit
+1714613471362:run
+1714613526487:testOnly *Markdown_Suite
+1714613539449:exit
+1714694726121:run
+1714701034620:exit
+1715469807742:testOnly *Markdown_Suite
+1715470491025:run
+1715470698324:testOnly *Markdown_Suite
+1715471119177:run
+1715471317257:clear
+1715471319227:clr
+1715471321731:run
+1715476737984:clr
+1715476739938:run
+1715478931941:testOnly *Markdown_Suite
+1715479117626:run
+1715479157362:testOnly *Markdown_Suite
+1715479179675:run
+1715479246891:testOnly *Markdown_Suite
+1715479248567:run
+1715479294406:testOnly *Markdown_Suite
+1715480586727:run
+1715480654451:testOnly *Markdown_Suite
+1715480775465:run
+1715480945921:exit
+1715480993554:run
+1715481080436:testOnly *Markdown_Suite
+1715481099962:run
+1715481249194:testOnly *Markdown_Suite
+1715481390955:run
+1715481400338:testOnly *Markdown_Suite
+1715481539086:run
+1715481745124:testOnly *Markdown_Suite
+1715481824137:run
+1715482583470:testOnly *Markdown_Suite
+1715482601539:run
+1715483738260:testOnly *Markdown_Suite
+1715483773888:run
+1715483993112:testOnly *Markdown_Suite
+1715484052684:run
+1715484105400:testOnly *Markdown_Suite
+1715484318251:run
+1715484377438:testOnly *Markdown_Suite
+1715484466163:run
+1715484516996:testOnly *Markdown_Suite
+1715485285260:run
+1715485489995:testOnly *Markdown_Suite
+1715485603219:run
+1715485634697:testOnly *Markdown_Suite
+1715485714700:run
+1715485716917:testOnly *Markdown_Suite
+1715485985369:testOnly *Markdown_Suite -- -z Block
+1715485991432:testOnly *Markdown_Suite -- -z CodeBlock
+1715487431161:testOnly *Markdown_Suite -- -z Block
+1715487452040:testOnly *Markdown_Suite -- -z CodeBlock
+1715487875257:run
+1715487881311:testOnly *Markdown_Suite
+1715487925520:run
+1715487985430:exit
+1715488078671:run
+1715488114882:testOnly *Markdown_Suite
+1715488126815:exit
+1715538106407:run
+1715538192960:testOnly *Markdown_Suite
+1715538200179:exit

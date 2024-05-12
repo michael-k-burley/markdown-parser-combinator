@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(932f5261-9f60-4d85-b0ce-567f0d92097e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCombinators_Suite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- String Parser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- OR combinator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AND combinator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- zeroOrMore combinator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Predicate Combinator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMarkdown_Suite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Paragraph[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Emphasis[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Link[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Image[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- BlockQuote[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- List[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- HorizontalRule[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- InlineCode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CodeBlock[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 222 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 14[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 14, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed Apr. 6, 2024, 9:36:30 p.m.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

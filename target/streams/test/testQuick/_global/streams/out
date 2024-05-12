@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Parser.Combinators_Suite, org.scalatest.tools.Framework$$anon$1@212757bf, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Parser.Parsers_Suite, org.scalatest.tools.Framework$$anon$1@212757bf, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mParsers_Suite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- String Parser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Char Predicate Parser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- String Predicate Parser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCombinators_Suite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AND combinator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- OR combinator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- zeroOrMore combinator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- onceOrMore combinator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 127 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 7[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Parser.Combinators_Suite[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Parser.Parsers_Suite[0m

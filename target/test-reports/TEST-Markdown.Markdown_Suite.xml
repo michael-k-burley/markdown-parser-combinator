@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="laptop" name="Markdown.Markdown_Suite" tests="9" errors="0" failures="1" skipped="0" time="0.108" timestamp="2024-04-06T13:37:40">
+          <properties>
+      <property name="java.specification.version" value="17"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="Unknown"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/><property name="sun.java.command" value="/home/mike/.cache/coursier/arc/https/github.com/sbt/sbt/releases/download/v1.9.1/sbt-1.9.1.zip/sbt/bin/sbt-launch.jar"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="UTF-8"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2024-01-16"/><property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="UTF-8"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="17.0.10+7-Ubuntu-122.04.1"/><property name="user.name" value="mike"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/mike/.cache/JNA/temp/jna17334641384256547717.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="17.0.10"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Private Build"/><property name="scala.ext.dirs" value="/home/mike/.sbt/1.0/java9-rt-ext-private_build_17_0_10"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/home/mike/.cache/coursier/arc/https/github.com/sbt/sbt/releases/download/v1.9.1/sbt-1.9.1.zip/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Private Build"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="America/Toronto"/><property name="java.vm.specification.version" value="17"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="CA"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/mike"/><property name="user.language" value="en"/><property name="sbt.script" value="/home/mike/.cache/coursier/arc/https/github.com/sbt/sbt/releases/download/v1.9.1/sbt-1.9.1.zip/sbt/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1000/.sbt16fd2985/ipcsocket"/><property name="swoval.tmpdir" value="/run/user/1000/.sbt16fd2985/swoval"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.15.0-101-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib/i386-linux-gnu:/libx32:/lib32:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="Unknown"/><property name="user.dir" value="/home/mike/dev/Scala/Parser"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="17.0.10+7-Ubuntu-122.04.1"/><property name="java.class.version" value="61.0"/>
+    </properties>
+          <testcase classname="Markdown.Markdown_Suite" name="Header" time="0.101">
+                      <failure message="(ParseError(Error: Expected string '\n' at position 13 Error: No spaceless printable characters at position 0),ParserInput(# 123 abc =+-,0)) did not equal (ParseSuccess(# 123 abc =+-),ParserInput(# 123 abc =+-,13))" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: (ParseError(Error: Expected string '\n' at position 13 Error: No spaceless printable characters at position 0),ParserInput(# 123 abc =+-,0)) did not equal (ParseSuccess(# 123 abc =+-),ParserInput(# 123 abc =+-,13))
+	at org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:476)
+	at org.scalatest.Assertions.newAssertionFailedException$(Assertions.scala:421)
+	at org.scalatest.Assertions$.newAssertionFailedException(Assertions.scala:1385)
+	at org.scalatest.Assertions$AssertionsHelper.macroAssert(Assertions.scala:1460)
+	at Markdown.Markdown_Suite.testFun$proxy1$1(Markdown.scala:15)
+	at Markdown.Markdown_Suite.$init$$$anonfun$1(Markdown.scala:11)
+	at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)
+	at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:21)
+	at org.scalatest.funsuite.AnyFunSuiteLike$$anon$1.apply(AnyFunSuiteLike.scala:206)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:138)
+	at org.scalatest.funsuite.AnyFunSuite.withFixture(AnyFunSuite.scala:1563)
+	at org.scalatest.funsuite.AnyFunSuiteLike.invokeWithFixture$1(AnyFunSuiteLike.scala:212)
+	at org.scalatest.funsuite.AnyFunSuiteLike.runTest$$anonfun$1(AnyFunSuiteLike.scala:216)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+	at org.scalatest.funsuite.AnyFunSuiteLike.runTest(AnyFunSuiteLike.scala:216)
+	at org.scalatest.funsuite.AnyFunSuiteLike.runTest$(AnyFunSuiteLike.scala:47)
+	at org.scalatest.funsuite.AnyFunSuite.runTest(AnyFunSuite.scala:1563)
+	at org.scalatest.funsuite.AnyFunSuiteLike.runTests$$anonfun$1(AnyFunSuiteLike.scala:249)
+	at org.scalatest.SuperEngine.traverseSubNodes$2$$anonfun$1(Engine.scala:413)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:429)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:396)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:475)
+	at org.scalatest.funsuite.AnyFunSuiteLike.runTests(AnyFunSuiteLike.scala:249)
+	at org.scalatest.funsuite.AnyFunSuiteLike.runTests$(AnyFunSuiteLike.scala:47)
+	at org.scalatest.funsuite.AnyFunSuite.runTests(AnyFunSuite.scala:1563)
+	at org.scalatest.Suite.run(Suite.scala:1112)
+	at org.scalatest.Suite.run$(Suite.scala:563)
+	at org.scalatest.funsuite.AnyFunSuite.org$scalatest$funsuite$AnyFunSuiteLike$$super$run(AnyFunSuite.scala:1563)
+	at org.scalatest.funsuite.AnyFunSuiteLike.run$$anonfun$1(AnyFunSuiteLike.scala:253)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:535)
+	at org.scalatest.funsuite.AnyFunSuiteLike.run(AnyFunSuiteLike.scala:253)
+	at org.scalatest.funsuite.AnyFunSuiteLike.run$(AnyFunSuiteLike.scala:47)
+	at org.scalatest.funsuite.AnyFunSuite.run(AnyFunSuite.scala:1563)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:318)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:513)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:153)
+	at sbt.TestRunner.run(TestFramework.scala:168)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:336)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:296)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:336)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:336)
+	at sbt.TestFunction.apply(TestFramework.scala:348)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:436)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:47)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+	at sbt.Execute.work(Execute.scala:292)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+</failure>
+                    </testcase><testcase classname="Markdown.Markdown_Suite" name="Emphasis" time="0.0">
+                      
+                    </testcase><testcase classname="Markdown.Markdown_Suite" name="Link" time="0.001">
+                      
+                    </testcase><testcase classname="Markdown.Markdown_Suite" name="Image" time="0.001">
+                      
+                    </testcase><testcase classname="Markdown.Markdown_Suite" name="BlockQuote" time="0.001">
+                      
+                    </testcase><testcase classname="Markdown.Markdown_Suite" name="List" time="0.001">
+                      
+                    </testcase><testcase classname="Markdown.Markdown_Suite" name="HorizontalRule" time="0.001">
+                      
+                    </testcase><testcase classname="Markdown.Markdown_Suite" name="InlineCode" time="0.001">
+                      
+                    </testcase><testcase classname="Markdown.Markdown_Suite" name="CodeBlock" time="0.001">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

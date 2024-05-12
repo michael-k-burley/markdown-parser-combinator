@@ -1,0 +1,32 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, Some(0dee5dac-997c-4193-9e4d-bcb8033d6d19), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/mike/dev/Scala/Parser/target/scala-3.4.1/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/mike/dev/Scala/Parser/src/main/scala/Markdown/Markdown.scala:71:38 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m71 |[0m                [33mval[0m [36mwords[0m = vek_words :+ [31m""[0m [34m// Avoids mkString issue with vector of one element[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                            ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue :+ is not a member of (String, String) - did you mean vek_words.++? or perhaps vek_words.:*?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/mike/dev/Scala/Parser/src/main/scala/Markdown/Markdown.scala:73:30 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m73 |[0m                println([31ms">> [0m$last_word[31m"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                              ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                              Not found: last_word[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/mike/dev/Scala/Parser/src/main/scala/Markdown/Markdown.scala:74:23 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m74 |[0m                (words mkString [31m" "[0m) + [31m""[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                       ^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method mkString is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .mkString(...) or backticked identifier `mkString`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Apr. 8, 2024, 10:02:08 p.m.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__postWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m
